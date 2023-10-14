@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d90867413c5e69d4e8c2b61b2ff07c6a, type: 3}
+  m_Name: Saladron
+  m_EditorClassIdentifier: 
+  enemies:
+  - enemy: {fileID: 11400000, guid: 8756c7122f6f94f4085b36ade8a2066e, type: 2}
+    position: 4
+  sceneTrans: {fileID: 5979334620001709604, guid: d5c496a85db1e5245bf680f8413b09b4, type: 3}
+  sceneChangeMusic: {fileID: 8300000, guid: 16fd0f6e4824fc842bad111f404e6c4b, type: 3}
+  battleMusic: {fileID: 8300000, guid: 6ef0cc1eb12a35640b70391cd9a6b1c2, type: 3}
+  victoryMusic:
+  - {fileID: 8300000, guid: d21a2e9cfb830dd48880f9b63977ab63, type: 3}
+  - {fileID: 8300000, guid: d990944a248c3e54a91b84c41d4b734d, type: 3}
+  background: {fileID: -3764554819817581201, guid: 556aaf2b42aa3704788c6bd7046fad12, type: 3}

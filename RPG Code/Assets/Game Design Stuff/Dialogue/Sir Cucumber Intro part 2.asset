@@ -1,0 +1,271 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e6ca5f495e6a246b74eda9f259046a, type: 3}
+  m_Name: Sir Cucumber Intro part 2
+  m_EditorClassIdentifier: 
+  preEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 39e5e0778ec8c9449b77cf41bfd69d1b, type: 2}
+        m_TargetAssemblyTypeName: GameEventSO, Assembly-CSharp
+        m_MethodName: ChangeEventAnim
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  dialogueList:
+  - text:
+    - I am in need of assistance!
+    - You see my colleague...
+    charTemplate: {fileID: 11400000, guid: 42b213ab01e7c1b499dec31d3cf42d69, type: 2}
+    charPortrait: {fileID: 21300000, guid: 6318fe14b70ddb543adf22cf40ed155c, type: 3}
+    voice: {fileID: 0}
+    textSpeed: 25
+    pauseTime: 0.6
+    typeText: 1
+    postEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 39e5e0778ec8c9449b77cf41bfd69d1b, type: 2}
+          m_TargetAssemblyTypeName: GameEventSO, Assembly-CSharp
+          m_MethodName: ChangeFacingAnim
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - text:
+    - Well, that's not quite right.
+    - 'My squire...
+
+'
+    charTemplate: {fileID: 11400000, guid: 42b213ab01e7c1b499dec31d3cf42d69, type: 2}
+    charPortrait: {fileID: 21300000, guid: 6318fe14b70ddb543adf22cf40ed155c, type: 3}
+    voice: {fileID: 0}
+    textSpeed: 25
+    pauseTime: 0.6
+    typeText: 1
+    postEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 39e5e0778ec8c9449b77cf41bfd69d1b, type: 2}
+          m_TargetAssemblyTypeName: GameEventSO, Assembly-CSharp
+          m_MethodName: ChangeEventAnim
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 3
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - text:
+    - No, that isn't quite it either...
+    charTemplate: {fileID: 11400000, guid: 42b213ab01e7c1b499dec31d3cf42d69, type: 2}
+    charPortrait: {fileID: 21300000, guid: 6318fe14b70ddb543adf22cf40ed155c, type: 3}
+    voice: {fileID: 0}
+    textSpeed: 25
+    pauseTime: 0.6
+    typeText: 1
+    postEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 39e5e0778ec8c9449b77cf41bfd69d1b, type: 2}
+          m_TargetAssemblyTypeName: GameEventSO, Assembly-CSharp
+          m_MethodName: ChangeEventAnim
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: 39e5e0778ec8c9449b77cf41bfd69d1b, type: 2}
+          m_TargetAssemblyTypeName: GameEventSO, Assembly-CSharp
+          m_MethodName: ChangeFacingAnim
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 3
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - text:
+    - My ward?
+    charTemplate: {fileID: 11400000, guid: 42b213ab01e7c1b499dec31d3cf42d69, type: 2}
+    charPortrait: {fileID: 21300000, guid: 6318fe14b70ddb543adf22cf40ed155c, type: 3}
+    voice: {fileID: 0}
+    textSpeed: 25
+    pauseTime: 0.6
+    typeText: 1
+    postEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - text:
+    - Yes! My ward!
+    charTemplate: {fileID: 11400000, guid: 42b213ab01e7c1b499dec31d3cf42d69, type: 2}
+    charPortrait: {fileID: 21300000, guid: 6318fe14b70ddb543adf22cf40ed155c, type: 3}
+    voice: {fileID: 0}
+    textSpeed: 25
+    pauseTime: 0.6
+    typeText: 1
+    postEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 39e5e0778ec8c9449b77cf41bfd69d1b, type: 2}
+          m_TargetAssemblyTypeName: GameEventSO, Assembly-CSharp
+          m_MethodName: ChangeFacingAnim
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 2
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - text:
+    - You see, my ward has gone missing in the dark woods that lay beyond!
+    - I've no doubt he is being assailed by the foul beasts that call this verdant
+      forest home!
+    - This is where you come in dear travelers!
+    charTemplate: {fileID: 11400000, guid: 42b213ab01e7c1b499dec31d3cf42d69, type: 2}
+    charPortrait: {fileID: 21300000, guid: 6318fe14b70ddb543adf22cf40ed155c, type: 3}
+    voice: {fileID: 0}
+    textSpeed: 25
+    pauseTime: 0.6
+    typeText: 1
+    postEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 39e5e0778ec8c9449b77cf41bfd69d1b, type: 2}
+          m_TargetAssemblyTypeName: GameEventSO, Assembly-CSharp
+          m_MethodName: ChangeEventAnim
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 2
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - text:
+    - You've the look of hardened adventurers! I've not a doubt you have the skills
+      to defeat the vile creatures that lurk in the dark!
+    charTemplate: {fileID: 11400000, guid: 42b213ab01e7c1b499dec31d3cf42d69, type: 2}
+    charPortrait: {fileID: 21300000, guid: 6318fe14b70ddb543adf22cf40ed155c, type: 3}
+    voice: {fileID: 0}
+    textSpeed: 25
+    pauseTime: 0.6
+    typeText: 1
+    postEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 39e5e0778ec8c9449b77cf41bfd69d1b, type: 2}
+          m_TargetAssemblyTypeName: GameEventSO, Assembly-CSharp
+          m_MethodName: ChangeEventAnim
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - text:
+    - I know what you are thinking, but worry not!
+    - Be not afraid! I would not let you go unaided!
+    charTemplate: {fileID: 11400000, guid: 42b213ab01e7c1b499dec31d3cf42d69, type: 2}
+    charPortrait: {fileID: 21300000, guid: 6318fe14b70ddb543adf22cf40ed155c, type: 3}
+    voice: {fileID: 0}
+    textSpeed: 25
+    pauseTime: 0.6
+    typeText: 1
+    postEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 39e5e0778ec8c9449b77cf41bfd69d1b, type: 2}
+          m_TargetAssemblyTypeName: GameEventSO, Assembly-CSharp
+          m_MethodName: ChangeEventAnim
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 6
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - text:
+    - I, Sir Cucumber, shall accompany you, in this, your most righteous quest!
+    charTemplate: {fileID: 11400000, guid: 42b213ab01e7c1b499dec31d3cf42d69, type: 2}
+    charPortrait: {fileID: 21300000, guid: 6318fe14b70ddb543adf22cf40ed155c, type: 3}
+    voice: {fileID: 0}
+    textSpeed: 25
+    pauseTime: 0.6
+    typeText: 1
+    postEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 39e5e0778ec8c9449b77cf41bfd69d1b, type: 2}
+          m_TargetAssemblyTypeName: GameEventSO, Assembly-CSharp
+          m_MethodName: ChangeEventAnim
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: 39e5e0778ec8c9449b77cf41bfd69d1b, type: 2}
+          m_TargetAssemblyTypeName: GameEventSO, Assembly-CSharp
+          m_MethodName: ChangeFacingAnim
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - text:
+    - Excelsior!
+    charTemplate: {fileID: 11400000, guid: 42b213ab01e7c1b499dec31d3cf42d69, type: 2}
+    charPortrait: {fileID: 21300000, guid: 6318fe14b70ddb543adf22cf40ed155c, type: 3}
+    voice: {fileID: 0}
+    textSpeed: 25
+    pauseTime: 0.6
+    typeText: 1
+    postEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  responses: []
+  nextDialog: {fileID: 0}

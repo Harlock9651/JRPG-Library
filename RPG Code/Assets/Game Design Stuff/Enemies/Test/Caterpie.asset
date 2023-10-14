@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74f607fbac340ec488ad47e5d3818cd5, type: 3}
+  m_Name: Caterpie
+  m_EditorClassIdentifier: 
+  enemyName: Caterpie
+  stats: {fileID: 11400000, guid: 218233d792245a040ab8603b781bfcce, type: 2}
+  battleSprite: {fileID: 21300000, guid: c060bddd932611943891ec5151f8dc4a, type: 3}
+  battleSpriteSize: {x: 150, y: 150}
+  abilities:
+  - {fileID: 0}

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fb437e5193be440acaefcaed52341d, type: 3}
+  m_Name: Sabrina
+  m_EditorClassIdentifier: 
+  charName: Sabrina
+  stats: {fileID: 11400000, guid: 000423304a3ca56449e66f8aca9ddc0c, type: 2}
+  animCont: {fileID: 22100000, guid: f7a31f5c5fa18104cad49b608486d16f, type: 2}
+  profPic: {fileID: 21300000, guid: ab82bf2500e64294b9c93f17e6fd316b, type: 3}
+  battleObj: {fileID: 2256073451227457975, guid: 3bb7265ed767d2543bc16ca98be6d952, type: 3}

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f438d82e3c86e4140a31b0a3b8e031a4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - pBtlSong: {instanceID: 0}
+  - sTrans: {instanceID: 0}
+  - canMove: {fileID: 11400000, guid: 5912d05e5a0f6f14cb50b576a55d33ca, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

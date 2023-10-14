@@ -1,0 +1,67 @@
+==================================
+Overworld
+==================================
+Walk
+-Keyboard:  Arrows/WASD
+-Controller: Analog Stick/D-Pad
+
+Run Toggle
+-Keyboard: Ctrl
+-Controller: Left Face Button
+
+Interact
+-Keyboard: Z
+-Controller: Bottom Face Button
+
+Open Menu
+-Keyboard: Shift
+-Controller: Top Face Button
+
+Previous Leader
+-Keyboard: 1
+-Controller: Left bumper
+
+Next Leader
+-Keyboard: 2
+-Controller: Right bumper
+
+==================================
+Battle
+==================================
+Run Away!
+-Keyboard: Ctrl
+-Controller: Left Face Button
+
+==================================
+Dialogue
+==================================
+Continue dialogue
+-Keyboard: Z
+-Controller: Bottom Face Button
+
+Skip typing
+-Keyboard: X
+-Controller: Right Face Button
+
+Select option
+-Keyboard:  Arrows/WASD
+-Controller: Analog Stick/D-Pad
+
+Confirm choice
+-Keyboard: Enter
+-Controller: Bottom Face Button
+
+==================================
+Menus
+==================================
+Select option
+-Keyboard:  Arrows/WASD
+-Controller: Analog Stick/D-Pad
+
+Confirm choice
+-Keyboard: Enter
+-Controller: Bottom Face Button
+
+Previous menu
+-Keyboard: X
+-Controller: Right Face Button

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d90867413c5e69d4e8c2b61b2ff07c6a, type: 3}
+  m_Name: Caterpie Gang
+  m_EditorClassIdentifier: 
+  enemies:
+  - enemy: {fileID: 11400000, guid: 1f5b3f53c7b28b843a6efa8c12f14f7d, type: 2}
+    position: 2
+  - enemy: {fileID: 11400000, guid: 1f5b3f53c7b28b843a6efa8c12f14f7d, type: 2}
+    position: 4
+  - enemy: {fileID: 11400000, guid: 1f5b3f53c7b28b843a6efa8c12f14f7d, type: 2}
+    position: 6
+  sceneTrans: {fileID: 5979334620001709604, guid: d5c496a85db1e5245bf680f8413b09b4, type: 3}
+  sceneChangeMusic: {fileID: 8300000, guid: 7d39a45253cf79747854da394998fc52, type: 3}
+  battleMusic: {fileID: 8300000, guid: 0735ff9882df4ed419ee06e2f8bd6a92, type: 3}
+  victoryMusic:
+  - {fileID: 8300000, guid: 0d37a754c6a18214c9d2180f21c66d05, type: 3}
+  - {fileID: 8300000, guid: 54b34366315340c42a593f8872a41d0a, type: 3}
+  background: {fileID: -3764554819817581201, guid: 556aaf2b42aa3704788c6bd7046fad12, type: 3}
